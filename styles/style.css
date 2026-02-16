@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background: linear-gradient(135deg, #faf2ed 0%, #fcf9ee 100%);
+}
+.main-header .container {
+  padding: 0 32px;
+}
+.input-wrapper input {
+  all: unset;
+  height: 28px;
+  width: 100%;
+}
+.main-header {
+  padding: 16px 0px;
+  background: #fff;
+}
+.header-inner .input-wrapper {
+  border: 1px solid #e3e1e1;
+  max-width: 380px;
+  padding: 8px 16px;
+  display: flex;
+  gap: 10px;
+  border-radius: 30px;
+  width: 100%;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+#role {
+  font-size: 13px;
+  margin-top: 8px;
+}
+.container {
+  padding: 0 40px;
+}
+.offers {
+  margin-top: 40px;
+}
+.deal-of-the-weekend {
+  background-image: url(../img/offers-background.png);
+  background-repeat: no-repeat;
+
+  width: 55%;
+  border-radius: 30px;
+  padding-top: 93px;
+  padding-left: 82px;
+  padding-bottom: 74px;
+}
+.deal-of-the-weekend h1 {
+  margin: 24px 0px;
+  font-size: 40px;
+  color: #07143b;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.deal-of-the-weekend .orange-text {
+  color: #ea6a12;
+}
+.deal-of-the-weekend small {
+  font-size: 13px;
+  font-weight: 400;
+}
+.deal-of-the-weekend p {
+  color: #959895;
+  font-weight: 700;
+}
+.main-button {
+  padding: 10px 24px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #ea6a12;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 24px;
+  font-size: 13px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.offers-inner {
+  display: flex;
+  gap: 40px;
+}
+
+.hamburger-offer {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+.hamburger-offer h1 {
+  font-size: 40px;
+  color: #07143b;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.hamburger-offer p {
+  font-weight: 700;
+  color: #959895;
+}
+.hamburger-offer .card {
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #fbf9f0 0%, #ffffff 100%);
+  padding-bottom: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.offer-image {
+  width: 430px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -30px;
+}
+.menu-category {
+  width: 57%;
+}
+.heading-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.view-menu {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  gap: 8px;
+}
+.menu {
+  margin-top: 40px;
+}
+h2 {
+  font-size: 40px;
+  color: #07143b;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.menu-category-cards-container .card {
+  display: inline-block;
+  max-width: calc(100% / 7 - 44px);
+  width: 100%;
+  margin-right: 40px;
+}
