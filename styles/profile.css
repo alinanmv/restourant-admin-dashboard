@@ -1,14 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   line-height: 1.9;
 }
-img{
+img {
   box-sizing: border-box;
   object-fit: cover;
-
 }
 .profile-data {
   width: 100%;
@@ -105,77 +104,77 @@ img{
 .card h4 {
   margin-bottom: 24px;
 }
-.order-row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 0px;
-    border-bottom: 1px solid #fdf5eb;
+.order-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px;
+  border-bottom: 1px solid #fdf5eb;
 }
-.order-row span{
-    background-color: var(--orange);
-    padding: 8px 24px;
-    color: var(--white);
-    border-radius: 20px;
+.order-row span {
+  background-color: var(--orange);
+  padding: 8px 24px;
+  color: var(--white);
+  border-radius: 20px;
 }
-.order-row a{
-    color: black;
-    text-decoration: none;
+.order-row a {
+  color: black;
+  text-decoration: none;
 }
-.order-row:last-child{
-    border: 0;
+.order-row:last-child {
+  border: 0;
 }
-.activity-stream{
+.activity-stream {
   display: flex;
   gap: 40px;
 }
-.center-column{
+.center-column {
   margin-top: 40px;
 }
-.center-column{
+.center-column {
   width: 770px;
 }
-.social-user-data{
+.social-user-data {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.social-user-data span{
+.social-user-data span {
   display: flex;
   flex-direction: column;
 }
-.post-image{
-  margin-top:16px ;
+.post-image {
+  margin-top: 16px;
 }
-.left-column .card img{
+.left-column .card img {
   width: 62px;
   height: 62px;
 }
-.post-controls{
+.post-controls {
   padding: 21px 14px;
 }
-.description{
+.description {
   padding: 24px;
   border-top: 1px solid #fdf5eb;
   border-bottom: 1px solid #fdf5eb;
 }
-.comment-row{
+.comment-row {
   display: flex;
   gap: 26px;
   align-items: start;
   margin-top: 24px;
 }
-.comment-controls{
+.comment-controls {
   display: flex;
   gap: 16px;
 }
-.input-wrapper input{
-  padding: 17px 24px ;
+.input-wrapper input {
+  padding: 17px 24px;
   border-radius: 30px;
   border: 1px solid #fdf5eb;
   max-width: 675px;
   margin-top: 24px;
 }
-.main-content{
+.main-content {
   padding: 40px 0px;
 }
