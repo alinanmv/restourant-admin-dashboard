@@ -38,3 +38,4 @@ function toggleMenu() {
     body.style.marginLeft = "0px";
   }
 }
+//навигация на профиль
