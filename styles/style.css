@@ -1,6 +1,8 @@
 :root {
   --orange: #ea6a12;
   --white: #fff;
+  --grey-border: #e3e1e1;
+  --grey-text: #989898;
 }
 * {
   margin: 0;

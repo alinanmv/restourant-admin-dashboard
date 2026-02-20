@@ -1,11 +1,55 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles/normalize.min.css" />
+    <link rel="stylesheet" href="../../styles/auth.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login / Sign In</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="auth-page">
+      <div class="auth-form">
+        <img src="../../img/logo-auth.png" alt="logo-auth" class="logo-auth" />
+        <div class="auth-form-inner">
+          <h1>Sign In</h1>
+          <p>Sign in to stay connected.</p>
+          <div class="input-wrapper">
+            <p>Email</p>
+            <input type="text" />
+          </div>
+          <div class="input-wrapper">
+            <p>Password</p>
+            <input type="text" />
+          </div>
+          <div class="flex-side space">
+            <div class="checkbox-wrapper">
+              <input type="checkbox" />
+              <p>Remember me?</p>
+            </div>
+            <a href="#" class="orange-text">Forgot Password</a>
+          </div>
+          <a href="../../index.html" class="main-button">Sign In</a>
+          <p class="blue-text">or sign in with other accounts?</p>
+          <div class="links-wrapper">
+            <!-- <a href="#"><img src="../../img/gmail.svg" alt="gmail-link" /></a> -->
+            <a href="3"><img src="../../img/facebook.svg" alt="facebook" /></a
+            ><a href="#"><img src="../../img/inst.svg" alt="inst" /></a
+            ><a href="linkedin"
+              ><img src="../../img/linked-in.svg" alt="linked-in"
+            /></a>
+          </div>
+          <p class="blue-text">Don't have an account? <a href="#" class="orange-text">Click here to sign up.</a></p>
+        </div>
+        
+      </div>
+      <img src="../../img/login-background.png" alt="login">
+    </div>
   </body>
 </html>

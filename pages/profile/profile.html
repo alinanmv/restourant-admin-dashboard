@@ -402,7 +402,7 @@
       <div class="container">
         <div class="header-inner">
           <div class="input-wrapper">
-            <img src="../../img/search.svg" alt="search" />
+            <img src="../../img/search.svg" alt="search" class="search-image" />
             <input type="text" placeholder="Search..." />
           </div>
           <div class="header-actions">
@@ -426,13 +426,12 @@
         <section class="profile-data">
           <div class="content-side">
             <div class="flex-side space">
+              <img
+                src="../../img/male-avatar.png"
+                alt="avatar"
+                class="male-avatar"
+              />
               <div class="user-information">
-                <img
-                  src="../../img/male-avatar.png"
-                  alt="avatar"
-                  class="male-avatar"
-                />
-
                 <ul>
                   <h4><strong>Devon Lane</strong></h4>
                   <li>
@@ -485,7 +484,7 @@
         </section>
         <section class="activity-stream">
           <div class="left-column">
-            <div class="card">
+            <div class="card news-card">
               <h4>News</h4>
               <hr />
               <div class="news-row">
@@ -519,7 +518,7 @@
                 </span>
               </div>
             </div>
-            <div class="card">
+            <div class="card online-order">
               <h4>Online Order</h4>
               <hr />
               <div class="order-row">
@@ -555,7 +554,7 @@
                 <span>1</span>
               </div>
             </div>
-            <div class="card">
+            <div class="card online-order">
               <h4>Online Order</h4>
               <hr />
               <div class="order-row">
@@ -580,8 +579,15 @@
               <img src="../../img/post-1.png" alt="post" class="post-image" />
               <div class="flex-side space">
                 <div class="post-controls">
-                  <button>Like</button>
-                  <span>140</span>
+                  <button type="button">
+                    <img src="../../img/heart.svg" class="button-image" />Like
+                  </button>
+                  <span
+                    ><img
+                      src="../../img/comment.svg"
+                      class="button-image"
+                    />140</span
+                  >
                 </div>
                 <button type="button" class="orange-text">Share</button>
               </div>
@@ -622,10 +628,97 @@
                   </div>
                 </span>
               </div>
-              <div class="input-wrapper">
+              <div class="input-wrapper-profile">
                 <input type="text" placeholder="Lovely!" />
               </div>
             </div>
+            <div class="card">
+              <div class="flex-side space">
+                <div class="social-user-data">
+                  <img src="../../img/blonde-pfp-big.png" />
+                  <span
+                    ><strong>Wade Warren</strong>
+                    <p class="orange-text">colleages</p></span
+                  >
+                </div>
+                <span><p>29 mins</p></span>
+              </div>
+              <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id quam
+                tortor nec arcu. Euismod neque ultricies eget adipiscing
+                condimentum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Id quam tortor nec arcu. Euismod neque ultricies eget
+                adipiscing condimentum.
+              </div>
+              <div class="flex-side space">
+                <div class="post-controls">
+                  <button type="button">
+                    <img src="../../img/heart.svg" class="button-image" />Like
+                  </button>
+                  <span
+                    ><img
+                      src="../../img/comment.svg"
+                      class="button-image"
+                    />140</span
+                  >
+                </div>
+                <button type="button" class="orange-text">Share</button>
+              </div>
+              <div class="input-wrapper-profile">
+                <input type="text" placeholder="Lovely!" />
+              </div>
+            </div>
+          </div>
+          <div class="right-column">
+            <div class="card">
+              <h4>About</h4>
+              <hr />
+              <div class="content-side">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem
+                  ipsum dolor sit amet
+                </p>
+                <p>Email: <span class="orange-text">nikjone@demoo.com</span></p>
+                <p>Phone: <span class="orange-text">001235125612</span></p>
+                <p>Location: <span class="orange-text">USA</span></p>
+              </div>
+            </div>
+            <div class="card">
+              <h4>Suggestions</h4>
+              <hr />
+              <div class="suggestion-row">
+                <img src="../../img/suggest-1.png" alt="dish" />
+                <span
+                  ><strong>Pizza</strong>
+                  <p>345+ Options</p></span
+                >
+              </div>
+              <div class="suggestion-row">
+                <img src="../../img/suggest-2.png" alt="dish" />
+                <span
+                  ><strong>Pizza</strong>
+                  <p>345+ Options</p></span
+                >
+              </div>
+              <div class="suggestion-row">
+                <img src="../../img/suggest-3.png" alt="dish" />
+                <span
+                  ><strong>Burger</strong>
+                  <p>345+ Options</p></span
+                >
+              </div>
+              <div class="suggestion-row">
+                <img src="../../img/suggest-4.png" alt="dish" />
+                <span
+                  ><strong>Pasta</strong>
+                  <p>345+ Options</p></span
+                >
+              </div>
+            </div>
+            <a href="#"
+              ><div class="card special-menu">
+                <img src="../../img/special-menu.png" alt="special-menu" /></div
+            ></a>
           </div>
         </section>
       </div>
