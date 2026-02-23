@@ -134,7 +134,7 @@ img {
   margin-top: 40px;
 }
 .center-column {
-  min-width: 770px;
+  min-width: 650px;
   max-width: 1000px;
   width: 100%;
   display: flex;

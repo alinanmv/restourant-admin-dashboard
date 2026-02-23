@@ -11,31 +11,49 @@
     <link rel="stylesheet" href="../../styles/auth.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login / Sign In</title>
+    <title>Document</title>
   </head>
   <body>
     <div class="auth-page">
       <div class="auth-form">
         <img src="../../img/logo-auth.png" alt="logo-auth" class="logo-auth" />
         <div class="auth-form-inner">
-          <h1>Sign In</h1>
-          <p>Sign in to stay connected.</p>
-          <div class="input-wrapper">
-            <p>Email</p>
-            <input type="text" />
-          </div>
-          <div class="input-wrapper">
-            <p>Password</p>
-            <input type="text" />
-          </div>
-          <div class="flex-side space">
-            <div class="checkbox-wrapper">
-              <input type="checkbox" />
-              <p>Remember me?</p>
+          <h1>Sign Up</h1>
+          <p>Create your Hope UI account</p>
+
+          <div class="flex-side">
+            <div class="input-wrapper">
+              <p>First Name</p>
+              <input type="text" name="firstName" />
+              <span class="error"></span>
             </div>
-            <a href="#" class="orange-text">Forgot Password</a>
+            <div class="input-wrapper">
+              <p>Last Name</p>
+              <input type="text" name="lastName" />
+              <span class="error"></span>
+            </div>
           </div>
-          <a href="../../index.html" class="main-button">Sign In</a>
+
+          <div class="flex-side">
+            <div class="input-wrapper">
+              <p>Email</p>
+              <input type="email" name="email" />
+              <span class="error"></span>
+            </div>
+            <div class="input-wrapper">
+              <p>Password</p>
+              <input type="password" name="password" />
+              <span class="error"></span>
+            </div>
+          </div>
+
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="terms" />
+            <p>I agree with the terms of use</p>
+          </div>
+
+          <button type="submit" class="main-button">Sign up</button>
+
           <p class="blue-text">or sign in with other accounts?</p>
           <div class="links-wrapper">
             <!-- <a href="#"><img src="../../img/gmail.svg" alt="gmail-link" /></a> -->
@@ -46,15 +64,12 @@
             /></a>
           </div>
           <p class="blue-text">
-            Don't have an account?
-            <a href="../auth/sign-up.html" class="orange-text"
-              >Click here to sign up.</a
-            >
+            Already have an Account
+            <a href="../auth/sign-in.html" class="orange-text">Sign in</a>
           </p>
         </div>
       </div>
       <img src="../../img/login-background.png" alt="login" />
     </div>
-    <script src="../../app.js"></script>
   </body>
 </html>
