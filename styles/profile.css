@@ -359,9 +359,7 @@ img {
     padding: 20px 0px;
     overflow-x: hidden;
   }
-  .nav-bar {
-    display: none;
-  }
+
   .center-column {
     flex: 1;
     margin-top: 0px;
@@ -428,6 +426,19 @@ img {
 .like-button.liked {
   color: var(--orange);
 }
-.like-button.liked img {
+.like-button.liked svg path {
+  stroke: var(--orange);
+
+  fill: var(--orange);
+}
+.like-button svg path {
+  stroke: #07143b;
+}
+.comment-controls .like-button {
   color: var(--orange);
+  display: flex;
+  align-items: center;
+}
+.comment-controls .like-button svg path {
+  stroke: var(--orange);
 }

@@ -1,8 +1,8 @@
 // likes
-const likes = document.querySelectorAll(".like-button");
+// const likes = document.querySelectorAll(".like-button");
 
-likes.forEach((like) => {
-  like.addEventListener("click", () => {
-    like.classList.toggle("liked");
-  });
-});
+// likes.forEach((like) => {
+//   like.addEventListener("click", () => {
+//     like.classList.toggle("liked");
+//   });
+// });

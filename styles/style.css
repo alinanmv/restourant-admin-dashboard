@@ -705,14 +705,12 @@ h4 {
 .open-nav-links .flex-side {
   width: 100%;
 }
-.nav-bar.open ~ body {
-  margin-left: 120px;
-}
 
-body:has(.nav-bar.open) {
-  margin-left: 120px;
+@media (min-width: 1024px) {
+  body:has(.nav-bar.open) {
+    margin-left: 120px;
+  }
 }
-
 body {
   transition: all 0.5s ease;
 }
@@ -804,6 +802,11 @@ body {
 }
 .trending-orders {
   padding-bottom: 50px;
+}
+#open-nav-button {
+  position: absolute;
+  display: none;
+  top: 20px;
 }
 @media (min-width: 1440px) and (max-width: 1919px) {
   body {
@@ -1215,6 +1218,43 @@ body {
   body {
     overflow-x: hidden;
   }
+  .nav-bar {
+    width: 70px;
+    height: 100%;
+  }
+  .navigation-small-logo {
+    width: 40px;
+  }
+  .nav-links li a img {
+    width: 30px;
+  }
+  .nav-bar.open {
+    width: 180px;
+    height: 100%;
+  }
+  .nav-bar.open {
+    padding: 7px 12px;
+  }
+  .open-nav-links ul li {
+    font-size: 12px;
+  }
+  .open-nav-links small {
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  .navigation-link-wrapper {
+    gap: 5px;
+  }
+  .open-nav-links ul li {
+    padding: 5px 0px;
+  }
+  .nav-bar .logo-big {
+    width: 120px;
+  }
+  .open-nav-links {
+    margin-top: -15px;
+  }
+
   .navigation-small-logo {
     width: 40px;
   }
@@ -1778,6 +1818,12 @@ body {
   .add-dish-button {
     margin-top: 17px;
   }
+  #open-nav-button {
+    display: block;
+  }
+  .header-inner .input-wrapper {
+    margin-left: 30px;
+  }
 }
 @media (min-width: 540px) and (max-width: 767px) {
   body {
@@ -2080,6 +2126,12 @@ body {
   }
   h4 {
     margin-bottom: 8px;
+  }
+  #open-nav-button {
+    display: block;
+  }
+  .header-inner .input-wrapper {
+    margin-left: 30px;
   }
 }
 @media (min-width: 425px) and (max-width: 539px) {
@@ -2438,6 +2490,12 @@ body {
     gap: 20px;
     max-width: 400px;
     width: 100%;
+  }
+  #open-nav-button {
+    display: block;
+  }
+  .header-inner .input-wrapper {
+    margin-left: 30px;
   }
 }
 @media (min-width: 280px) and (max-width: 424px) {
@@ -2809,5 +2867,32 @@ body {
   }
   .my-cart-card {
     min-width: 275px;
+  }
+  #open-nav-button {
+    display: block;
+  }
+  .header-inner .input-wrapper {
+    margin-left: 30px;
+  }
+}
+.my-cart-card {
+  max-height: 572px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@media (max-width: 1023px) {
+  .nav-bar {
+    display: flex;
+    width: 260px;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+  }
+
+  .nav-bar.open {
+    transform: translateX(0);
+  }
+
+  body {
+    margin-left: 0 !important;
   }
 }
